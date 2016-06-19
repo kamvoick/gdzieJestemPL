@@ -12,8 +12,9 @@
 		420EAB7F1CF85E010039D054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420EAB7D1CF85E010039D054 /* Main.storyboard */; };
 		420EAB811CF85E010039D054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420EAB801CF85E010039D054 /* Assets.xcassets */; };
 		420EAB841CF85E010039D054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420EAB821CF85E010039D054 /* LaunchScreen.storyboard */; };
-		420EAB8F1CF85E010039D054 /* NowyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EAB8E1CF85E010039D054 /* NowyTests.swift */; };
-		420EAB9A1CF85E010039D054 /* NowyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EAB991CF85E010039D054 /* NowyUITests.swift */; };
+		420EAB8F1CF85E010039D054 /* gdzieJestemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EAB8E1CF85E010039D054 /* gdzieJestemTests.swift */; };
+		420EAB9A1CF85E010039D054 /* gdzieJestemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EAB991CF85E010039D054 /* gdzieJestemUITests.swift */; };
+		42EDC27C1D1615490084EE75 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EDC27B1D1615490084EE75 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		420EAB761CF85E010039D054 /* Nowy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nowy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420EAB761CF85E010039D054 /* gdzieJestem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gdzieJestem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420EAB791CF85E010039D054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		420EAB7B1CF85E010039D054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		420EAB7E1CF85E010039D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		420EAB801CF85E010039D054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420EAB831CF85E010039D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420EAB851CF85E010039D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		420EAB8A1CF85E010039D054 /* NowyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		420EAB8E1CF85E010039D054 /* NowyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowyTests.swift; sourceTree = "<group>"; };
+		420EAB8A1CF85E010039D054 /* gdzieJestem.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gdzieJestem.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420EAB8E1CF85E010039D054 /* gdzieJestemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gdzieJestemTests.swift; sourceTree = "<group>"; };
 		420EAB901CF85E010039D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		420EAB951CF85E010039D054 /* NowyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		420EAB991CF85E010039D054 /* NowyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowyUITests.swift; sourceTree = "<group>"; };
-		420EAB9B1CF85E010039D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420EAB951CF85E010039D054 /* gdzieJestem.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gdzieJestem.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420EAB991CF85E010039D054 /* gdzieJestemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gdzieJestemUITests.swift; sourceTree = "<group>"; };
+		420EAB9B1CF85E010039D054 /* gdzieJestemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gdzieJestemUITests.swift; sourceTree = "<group>"; };
+		42EDC27B1D1615490084EE75 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EDC27C1D1615490084EE75 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +80,10 @@
 		420EAB6D1CF85E010039D054 = {
 			isa = PBXGroup;
 			children = (
-				420EAB781CF85E010039D054 /* Nowy */,
-				420EAB8D1CF85E010039D054 /* NowyTests */,
-				420EAB981CF85E010039D054 /* NowyUITests */,
+				42EDC27B1D1615490084EE75 /* CoreLocation.framework */,
+				420EAB781CF85E010039D054 /* gdzieJestem */,
+				420EAB8D1CF85E010039D054 /* gdzieJestemTests */,
+				420EAB981CF85E010039D054 /* gdzieJestemUITests */,
 				420EAB771CF85E010039D054 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +91,15 @@
 		420EAB771CF85E010039D054 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				420EAB761CF85E010039D054 /* Nowy.app */,
-				420EAB8A1CF85E010039D054 /* NowyTests.xctest */,
-				420EAB951CF85E010039D054 /* NowyUITests.xctest */,
+				420EAB761CF85E010039D054 /* gdzieJestem.app */,
+				420EAB8A1CF85E010039D054 /* gdzieJestem.xctest */,
+				420EAB951CF85E010039D054 /* gdzieJestem.xctest */,
 			);
 			name = Products;
+			path = gdzieJestem;
 			sourceTree = "<group>";
 		};
-		420EAB781CF85E010039D054 /* Nowy */ = {
+		420EAB781CF85E010039D054 /* gdzieJestem */ = {
 			isa = PBXGroup;
 			children = (
 				420EAB791CF85E010039D054 /* AppDelegate.swift */,
@@ -104,33 +109,33 @@
 				420EAB821CF85E010039D054 /* LaunchScreen.storyboard */,
 				420EAB851CF85E010039D054 /* Info.plist */,
 			);
-			path = Nowy;
+			path = gdzieJestem;
 			sourceTree = "<group>";
 		};
-		420EAB8D1CF85E010039D054 /* NowyTests */ = {
+		420EAB8D1CF85E010039D054 /* gdzieJestemTests */ = {
 			isa = PBXGroup;
 			children = (
-				420EAB8E1CF85E010039D054 /* NowyTests.swift */,
+				420EAB8E1CF85E010039D054 /* gdzieJestemTests.swift */,
 				420EAB901CF85E010039D054 /* Info.plist */,
 			);
-			path = NowyTests;
+			path = gdzieJestemTests;
 			sourceTree = "<group>";
 		};
-		420EAB981CF85E010039D054 /* NowyUITests */ = {
+		420EAB981CF85E010039D054 /* gdzieJestemUITests */ = {
 			isa = PBXGroup;
 			children = (
-				420EAB991CF85E010039D054 /* NowyUITests.swift */,
-				420EAB9B1CF85E010039D054 /* Info.plist */,
+				420EAB991CF85E010039D054 /* gdzieJestemUITests.swift */,
+				420EAB9B1CF85E010039D054 /* gdzieJestemUITests.swift */,
 			);
-			path = NowyUITests;
+			path = gdzieJestemUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		420EAB751CF85E010039D054 /* Nowy */ = {
+		420EAB751CF85E010039D054 /* gdzieJestem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 420EAB9E1CF85E010039D054 /* Build configuration list for PBXNativeTarget "Nowy" */;
+			buildConfigurationList = 420EAB9E1CF85E010039D054 /* Build configuration list for PBXNativeTarget "gdzieJestem" */;
 			buildPhases = (
 				420EAB721CF85E010039D054 /* Sources */,
 				420EAB731CF85E010039D054 /* Frameworks */,
@@ -140,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = Nowy;
+			name = gdzieJestem;
 			productName = Nowy;
-			productReference = 420EAB761CF85E010039D054 /* Nowy.app */;
+			productReference = 420EAB761CF85E010039D054 /* gdzieJestem.app */;
 			productType = "com.apple.product-type.application";
 		};
-		420EAB891CF85E010039D054 /* NowyTests */ = {
+		420EAB891CF85E010039D054 /* gdzieJestemTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 420EABA11CF85E010039D054 /* Build configuration list for PBXNativeTarget "NowyTests" */;
+			buildConfigurationList = 420EABA11CF85E010039D054 /* Build configuration list for PBXNativeTarget "gdzieJestemTests" */;
 			buildPhases = (
 				420EAB861CF85E010039D054 /* Sources */,
 				420EAB871CF85E010039D054 /* Frameworks */,
@@ -158,14 +163,14 @@
 			dependencies = (
 				420EAB8C1CF85E010039D054 /* PBXTargetDependency */,
 			);
-			name = NowyTests;
+			name = gdzieJestemTests;
 			productName = NowyTests;
-			productReference = 420EAB8A1CF85E010039D054 /* NowyTests.xctest */;
+			productReference = 420EAB8A1CF85E010039D054 /* gdzieJestem.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		420EAB941CF85E010039D054 /* NowyUITests */ = {
+		420EAB941CF85E010039D054 /* gdzieJestemUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 420EABA41CF85E010039D054 /* Build configuration list for PBXNativeTarget "NowyUITests" */;
+			buildConfigurationList = 420EABA41CF85E010039D054 /* Build configuration list for PBXNativeTarget "gdzieJestemUITests" */;
 			buildPhases = (
 				420EAB911CF85E010039D054 /* Sources */,
 				420EAB921CF85E010039D054 /* Frameworks */,
@@ -176,9 +181,9 @@
 			dependencies = (
 				420EAB971CF85E010039D054 /* PBXTargetDependency */,
 			);
-			name = NowyUITests;
+			name = gdzieJestemUITests;
 			productName = NowyUITests;
-			productReference = 420EAB951CF85E010039D054 /* NowyUITests.xctest */;
+			productReference = 420EAB951CF85E010039D054 /* gdzieJestem.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +198,7 @@
 				TargetAttributes = {
 					420EAB751CF85E010039D054 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 43JEENFSQD;
 					};
 					420EAB891CF85E010039D054 = {
 						CreatedOnToolsVersion = 7.3;
@@ -204,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 420EAB711CF85E010039D054 /* Build configuration list for PBXProject "Nowy" */;
+			buildConfigurationList = 420EAB711CF85E010039D054 /* Build configuration list for PBXProject "gdzieJestem" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				420EAB751CF85E010039D054 /* Nowy */,
-				420EAB891CF85E010039D054 /* NowyTests */,
-				420EAB941CF85E010039D054 /* NowyUITests */,
+				420EAB751CF85E010039D054 /* gdzieJestem */,
+				420EAB891CF85E010039D054 /* gdzieJestemTests */,
+				420EAB941CF85E010039D054 /* gdzieJestemUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420EAB8F1CF85E010039D054 /* NowyTests.swift in Sources */,
+				420EAB8F1CF85E010039D054 /* gdzieJestemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420EAB9A1CF85E010039D054 /* NowyUITests.swift in Sources */,
+				420EAB9A1CF85E010039D054 /* gdzieJestemUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		420EAB8C1CF85E010039D054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 420EAB751CF85E010039D054 /* Nowy */;
+			target = 420EAB751CF85E010039D054 /* gdzieJestem */;
 			targetProxy = 420EAB8B1CF85E010039D054 /* PBXContainerItemProxy */;
 		};
 		420EAB971CF85E010039D054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 420EAB751CF85E010039D054 /* Nowy */;
+			target = 420EAB751CF85E010039D054 /* gdzieJestem */;
 			targetProxy = 420EAB961CF85E010039D054 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,10 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Nowy/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = gdzieJestem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = none.Nowy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = none.gdzieJestem;
+				PRODUCT_NAME = gdzieJestem;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Nowy/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = gdzieJestem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = none.Nowy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = none.gdzieJestem;
+				PRODUCT_NAME = gdzieJestem;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -424,8 +436,8 @@
 				INFOPLIST_FILE = NowyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.NowyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nowy.app/Nowy";
+				PRODUCT_NAME = gdzieJestem;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gdzieJestem.app/gdzieJestem";
 			};
 			name = Debug;
 		};
@@ -436,8 +448,8 @@
 				INFOPLIST_FILE = NowyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.NowyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nowy.app/Nowy";
+				PRODUCT_NAME = gdzieJestem;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gdzieJestem.app/gdzieJestem";
 			};
 			name = Release;
 		};
@@ -447,7 +459,7 @@
 				INFOPLIST_FILE = NowyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.NowyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = gdzieJestem;
 				TEST_TARGET_NAME = Nowy;
 			};
 			name = Debug;
@@ -458,7 +470,7 @@
 				INFOPLIST_FILE = NowyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.NowyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = gdzieJestem;
 				TEST_TARGET_NAME = Nowy;
 			};
 			name = Release;
@@ -466,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		420EAB711CF85E010039D054 /* Build configuration list for PBXProject "Nowy" */ = {
+		420EAB711CF85E010039D054 /* Build configuration list for PBXProject "gdzieJestem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				420EAB9C1CF85E010039D054 /* Debug */,
@@ -475,29 +487,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		420EAB9E1CF85E010039D054 /* Build configuration list for PBXNativeTarget "Nowy" */ = {
+		420EAB9E1CF85E010039D054 /* Build configuration list for PBXNativeTarget "gdzieJestem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				420EAB9F1CF85E010039D054 /* Debug */,
 				420EABA01CF85E010039D054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		420EABA11CF85E010039D054 /* Build configuration list for PBXNativeTarget "NowyTests" */ = {
+		420EABA11CF85E010039D054 /* Build configuration list for PBXNativeTarget "gdzieJestemTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				420EABA21CF85E010039D054 /* Debug */,
 				420EABA31CF85E010039D054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		420EABA41CF85E010039D054 /* Build configuration list for PBXNativeTarget "NowyUITests" */ = {
+		420EABA41CF85E010039D054 /* Build configuration list for PBXNativeTarget "gdzieJestemUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				420EABA51CF85E010039D054 /* Debug */,
 				420EABA61CF85E010039D054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
