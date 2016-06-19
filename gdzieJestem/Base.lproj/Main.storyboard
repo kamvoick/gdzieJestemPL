@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gdzieJestem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OOy-1m-0uR">
+                                <rect key="frame" x="20" y="28" width="560" height="247"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gdzie jestem?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5R-Ep-REt">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="42"/>
+                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="25"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xgJ-a5-UuT">
+                                        <rect key="frame" x="0.0" y="52" width="560" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Szerokość geograficzna:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcw-EY-jFQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="11"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Szerokość geograficzna:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrD-EJ-rzK">
+                                                <rect key="frame" x="285" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3ed-en-oPn">
+                                        <rect key="frame" x="0.0" y="82" width="560" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Długość geograficzna:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npG-Tn-f0A">
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Długość geograficzna:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PD-TY-99L">
+                                                <rect key="frame" x="285" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IpK-7k-aAV">
+                                        <rect key="frame" x="0.0" y="112" width="560" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kierunek:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lE2-WS-KFf">
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kierunek:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZC1-Nk-rpr">
+                                                <rect key="frame" x="285" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c51-EN-9j2">
+                                        <rect key="frame" x="0.0" y="142" width="560" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Szybkość:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phP-U9-AgX">
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Szybkość:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rh-QB-gnw">
+                                                <rect key="frame" x="285" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CwE-cf-wkt">
+                                        <rect key="frame" x="0.0" y="172" width="560" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wysokość:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REX-JO-tqa">
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wysokość:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZX-1C-8lh">
+                                                <rect key="frame" x="285" y="0.0" width="275" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MBu-C4-PWV">
+                                        <rect key="frame" x="0.0" y="202" width="560" height="45"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Najbliższy adres:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOe-1B-9Wq">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Najbliższy adres:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfR-Rm-HhZ">
+                                                <rect key="frame" x="0.0" y="25" width="560" height="20"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="12"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="CwE-cf-wkt" firstAttribute="leading" secondItem="OOy-1m-0uR" secondAttribute="leading" id="3Jf-cg-D98"/>
+                                    <constraint firstItem="c51-EN-9j2" firstAttribute="leading" secondItem="OOy-1m-0uR" secondAttribute="leading" id="8cI-Ha-hKL"/>
+                                    <constraint firstAttribute="trailing" secondItem="CwE-cf-wkt" secondAttribute="trailing" id="DHS-QP-iP2"/>
+                                    <constraint firstAttribute="trailing" secondItem="xgJ-a5-UuT" secondAttribute="trailing" id="Dw8-U8-Zjx"/>
+                                    <constraint firstItem="IpK-7k-aAV" firstAttribute="leading" secondItem="OOy-1m-0uR" secondAttribute="leading" id="JCf-gx-ruN"/>
+                                    <constraint firstItem="3ed-en-oPn" firstAttribute="leading" secondItem="OOy-1m-0uR" secondAttribute="leading" id="XZX-H2-wie"/>
+                                    <constraint firstAttribute="trailing" secondItem="c51-EN-9j2" secondAttribute="trailing" id="bH7-RG-fgH"/>
+                                    <constraint firstAttribute="trailing" secondItem="3ed-en-oPn" secondAttribute="trailing" id="dV8-kY-vcz"/>
+                                    <constraint firstItem="s5R-Ep-REt" firstAttribute="centerX" secondItem="OOy-1m-0uR" secondAttribute="centerX" id="dpi-Xs-bbf"/>
+                                    <constraint firstAttribute="trailing" secondItem="IpK-7k-aAV" secondAttribute="trailing" id="qAr-gR-fE8"/>
+                                    <constraint firstItem="xgJ-a5-UuT" firstAttribute="leading" secondItem="OOy-1m-0uR" secondAttribute="leading" id="xfh-zI-9Bv"/>
+                                    <constraint firstItem="MBu-C4-PWV" firstAttribute="centerX" secondItem="OOy-1m-0uR" secondAttribute="centerX" id="yht-mL-OMU"/>
+                                </constraints>
+                            </stackView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6YY-zr-Q8Z">
+                                <rect key="frame" x="20" y="283" width="560" height="297"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6YY-zr-Q8Z" secondAttribute="bottom" constant="20" symbolic="YES" id="0kD-8Q-TCc"/>
+                            <constraint firstItem="6YY-zr-Q8Z" firstAttribute="top" secondItem="OOy-1m-0uR" secondAttribute="bottom" constant="8" symbolic="YES" id="180-Yu-GCB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OOy-1m-0uR" secondAttribute="trailing" id="9y0-vr-ifk"/>
+                            <constraint firstItem="OOy-1m-0uR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="GdS-AS-4to"/>
+                            <constraint firstItem="6YY-zr-Q8Z" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JnB-Q8-eRw"/>
+                            <constraint firstItem="6YY-zr-Q8Z" firstAttribute="leading" secondItem="OOy-1m-0uR" secondAttribute="leading" id="OEy-cP-ZwO"/>
+                            <constraint firstItem="OOy-1m-0uR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oHP-k9-6yR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="adres" destination="QfR-Rm-HhZ" id="WU2-TQ-d1G"/>
+                        <outlet property="dłGeog" destination="0PD-TY-99L" id="GTO-kn-1Sr"/>
+                        <outlet property="kierunek" destination="ZC1-Nk-rpr" id="PuT-94-2qZ"/>
+                        <outlet property="mapa" destination="6YY-zr-Q8Z" id="1n3-Vy-gZb"/>
+                        <outlet property="szerGeo" destination="wrD-EJ-rzK" id="hO5-iq-pGD"/>
+                        <outlet property="szybkość" destination="8Rh-QB-gnw" id="g0P-A4-YN3"/>
+                        <outlet property="wysokość" destination="TZX-1C-8lh" id="Qdz-Dm-RDe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="409" y="337"/>
+        </scene>
+    </scenes>
+</document>
